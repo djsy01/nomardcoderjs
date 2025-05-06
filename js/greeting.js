@@ -16,7 +16,7 @@ const submitFuntion = (e) => {
 
 const displayName = (name) => {
   welcome.classList.remove(HIDDEN_CLASS_NAME);
-  welcome.innerText = `안녕하세요 ${name}님 !`;
+  welcome.innerText = `안녕하세요!`;
 };
 
 if (name1) {
